@@ -140,4 +140,3 @@ public class ArvoreBinaria implements Arvore {
 		preFixado(raiz.getFilhoDireita());
 	}
 }
-// Os métodos da interface Arvore deverão ser inseri-dos aqui. }

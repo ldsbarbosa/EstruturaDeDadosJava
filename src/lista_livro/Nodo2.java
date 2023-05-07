@@ -1,3 +1,6 @@
+/**
+ * Lista duplamente encadeada
+ */
 package lista_livro;
 
 public class Nodo2 {

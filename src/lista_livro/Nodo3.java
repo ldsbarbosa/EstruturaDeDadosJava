@@ -1,3 +1,6 @@
+/**
+ * Lista circular
+ */
 package lista_livro;
 
 public class Nodo3 {
