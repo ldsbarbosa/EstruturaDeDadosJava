@@ -16,15 +16,15 @@ public class Exercicio_12 {
 		int[][] matriz = new int[quantidadeLinhas][quantidadeColunas];
 		boolean achouONumero = false;
 		Random geradorAleatorio = new Random();
-		Scanner leitor = new Scanner(System.in);
-		
-		for(int i = 0; i < quantidadeLinhas; i++) {
-			for(int j = 0; j < quantidadeColunas; j++) {
-				matriz[i][j] = geradorAleatorio.nextInt(100);
+		try (Scanner leitor = new Scanner(System.in)) {
+			for(int i = 0; i < quantidadeLinhas; i++) {
+				for(int j = 0; j < quantidadeColunas; j++) {
+					matriz[i][j] = geradorAleatorio.nextInt(100);
+				}
 			}
+			System.out.println("\nEscolha um número inteiro, de 0 a 100, para encontrá-lo na matriz: \n");
+			escolha = leitor.nextInt();
 		}
-		System.out.println("\nEscolha um número inteiro, de 0 a 100, para encontrá-lo na matriz: \n");
-		escolha = leitor.nextInt();
 		
 		for(int i = 0; i < quantidadeLinhas; i++) {
 			for(int j = 0; j < quantidadeColunas; j++) {

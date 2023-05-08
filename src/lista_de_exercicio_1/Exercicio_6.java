@@ -4,8 +4,6 @@
  */
 package lista_de_exercicio_1;
 
-import java.util.Random;
-
 public class Exercicio_6 {
 	public static void main(String[] args) {
 		int[] numerosPrimos = new int[10];

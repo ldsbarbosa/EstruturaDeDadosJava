@@ -12,18 +12,18 @@ public class Exercicio_11 {
 		int quantidadeLinhas = 9, quantidadeColunas = 9, multiplicador;
 		int[][] matriz = new int[quantidadeLinhas][quantidadeColunas];
 		Random geradorAleatorio = new Random();
-		Scanner leitor = new Scanner(System.in);
-		
-		System.out.println("Matriz\n");
-		for(int i = 0; i < quantidadeLinhas; i++) {
-			for(int j = 0; j < quantidadeColunas; j++) {
-				matriz[i][j] = geradorAleatorio.nextInt(100);
-				System.out.print(matriz[i][j]+"\t");
+		try (Scanner leitor = new Scanner(System.in)) {
+			System.out.println("Matriz\n");
+			for(int i = 0; i < quantidadeLinhas; i++) {
+				for(int j = 0; j < quantidadeColunas; j++) {
+					matriz[i][j] = geradorAleatorio.nextInt(100);
+					System.out.print(matriz[i][j]+"\t");
+				}
+				System.out.print("\n");
 			}
-			System.out.print("\n");
+			System.out.println("\nEscolha um valor para multiplicar todos os elementos da matriz: \n");
+			multiplicador = leitor.nextInt();
 		}
-		System.out.println("\nEscolha um valor para multiplicar todos os elementos da matriz: \n");
-		multiplicador = leitor.nextInt();
 		
 		System.out.println("Resultado abaixo: \n");
 		for(int i = 0; i < quantidadeLinhas; i++) {

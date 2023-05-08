@@ -112,7 +112,6 @@ public class ArvoreBinaria implements Arvore {
 	}
 
 	private void removeDoisFilhos(NodoArvore nodo) {
-		NodoArvore pai = buscaPai(this.raiz, nodo.getChave());
 		NodoArvore max = max(nodo.getFilhoEsquerda());
 		NodoArvore paiMax = buscaPai(nodo, max.getChave());
 		nodo.setChave(max.getChave());
