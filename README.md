@@ -1,5 +1,7 @@
 # Repositório de Estrutura de Dados em Java
 
+[![Java](/assets/images/logo-java-512.png "Java")](https://docs.oracle.com/en/java/)
+
 ## Objetivo
 
 O objetivo desse repositório é compartilhar meus estudos desenvolvidos e organizados em um projeto Eclipse.
