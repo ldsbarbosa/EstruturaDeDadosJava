@@ -14,6 +14,9 @@ no Eclipse (ou no NetBeans).
 
 | **Pacote** | **Classe** | **Propósito** |
 | ---------- | ---------- | ------------- |
+| fila_livro | Fila.java | Implementação do algoritmo de fila |
+| fila_livro | Principal.java | Exemplificação da utilização de uma fila conforme a classe Fila.java |
+| fila_livro | Principal2.java | Exemplificação da utilização de uma fila conforme a classe Queue, nativa da linguagem Java |
 | aula_10 | Exemplo2.java | Exercitando operações básicas |
 | aula_10 | Exemplo3.java | Duas filas para uma fila com elementos alternados |
 | aula_10 | Exemplo4.java | Inversão de uma fila |
@@ -28,6 +31,10 @@ no Eclipse (ou no NetBeans).
 
 | **Pacote** | **Classe** | **Propósito** |
 | ---------- | ---------- | ------------- |
+| pilha_livro | Pilha.java | Implementação do algoritmo de pilha |
+| pilha_livro | Principal.java | Exemplificação da utilização de uma fila conforme a classe Pilha.java |
+| pilha_livro | Exemplo.java | Exemplificação da utilização de uma fila conforme a classe Stack, nativa da linguagem Java |
+| pilha_livro | Exemplo2.java | Segunda exemplificação da utilização de uma fila conforme a classe Stack, nativa da linguagem Java |
 | aula_11 | Exercicio1.java | Operações básicas |
 | aula_11 | Exercicio2.java | Operações básicas pt.2 |
 | aula_11 | Exercicio3.java | Operações básicas pt.3 |
