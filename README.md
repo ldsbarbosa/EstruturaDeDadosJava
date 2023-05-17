@@ -54,21 +54,20 @@ O objetivo desse repositório é compartilhar meus estudos desenvolvidos em Estr
 
 | **Pacote** | **Classe** | **Propósito** |
 | ---------- | ---------- | ------------- |
-| aula_13 | NoS.java | Implementação de um Nó em uma Lista Simplesmente Encadeada |
-| aula_13 | ListaSimplesmenteEncadeada.java | Implementação de uma Lista Simplesmente Encadeada |
-| aula_13 | TestaListaEncadeada.java | Testando a implementação da Lista Simplesmente Encadeada |
-| aula_13 | NoD.java | Implementação de um Nó em uma Lista Duplamente Encadeada |
-| aula_13 | ListaDuplamenteEncadeada.java | Implementação de uma Lista Duplamente Encadeada |
-| aula_13 | TestaListaDuplaEncadeada.java | Testando a implementação da Lista Duplamente Encadeada |
-| aula_13 | NoC.java | Implementação de um Nó em uma Lista Circular |
-| aula_13 | ListaCircular.java | Implementação de uma Lista Circular |
-| aula_13 | TestaListaCircular.java | Testando a implementação da Lista Circular |
-| aula_13 | Lista1.java | Implementação de uma Lista Encadeada em uma classe só e impressão reversa |
-| aula_13 | Lista2.java | Implementação de uma Lista Encadeada em uma classe só e checagem para ver se está ordenada |
-| aula_13 | Lista1.java | Implementação de uma Lista Encadeada em uma classe só e impressão reversa |
-| aula_13 | Lista2.java | Implementação de uma Lista Encadeada em uma classe só e checagem para ver se está ordenada |
-| lista_de_exercicio_2 | Lista1.java | Implementação de uma Lista Encadeada em uma classe só e impressão reversa |
-| lista_de_exercicio_2 | Lista2.java | Implementação de uma Lista Encadeada em uma classe só e checagem para ver se está ordenada |
+| aula_13 | NoS.java | Implementação de um Nó em uma Lista Simplesmente Encadeada (Aula) |
+| aula_13 | ListaSimplesmenteEncadeada.java | Implementação de uma Lista Simplesmente Encadeada (Aula) |
+| aula_13 | TestaListaEncadeada.java | Testando a implementação da Lista Simplesmente Encadeada (Aula) |
+| lista_livro | Nodo.java | Implementação de um Nó em uma Lista Simplesmente Encadeada (Livro) |
+| lista_livro | ListaSimplesmenteEncadeada.java | Implementação de uma Lista Simplesmente Encadeada (Livro) |
+| lista_livro | Principal1.java | Testando a implementação da Lista Simplesmente Encadeada (Livro) |
+| aula_13 | NoD.java | Implementação de um Nó em uma Lista Duplamente Encadeada (Aula) |
+| aula_13 | ListaDuplamenteEncadeada.java | Implementação de uma Lista Duplamente Encadeada (Aula) |
+| aula_13 | TestaListaDuplaEncadeada.java | Testando a implementação da Lista Duplamente Encadeada (Aula) |
+| aula_13 | NoC.java | Implementação de um Nó em uma Lista Circular (Aula) |
+| aula_13 | ListaCircular.java | Implementação de uma Lista Circular (Aula) |
+| aula_13 | TestaListaCircular.java | Testando a implementação da Lista Circular (Aula) |
+| lista_de_exercicio_2 | Lista1.java | Implementação de uma Lista Encadeada em uma classe só e sua impressão reversa |
+| lista_de_exercicio_2 | Lista2.java | Implementação de uma Lista Encadeada em uma classe só e checagem para ver se está ordenada de forma ascendente |
 
 ### Árvore (Tree)
 
