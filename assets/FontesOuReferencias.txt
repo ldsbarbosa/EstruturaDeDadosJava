@@ -1,0 +1,4 @@
+Gif de Fila: https://dev.to/damimd10/data-structures-part-1-queues-how-to-implement-5fme
+Gif de Pilha: https://medium.com/@practicetracker4ever/stacks-i-12321d130609
+Gif de Lista: https://dev.to/adavidoaiei/fundamental-data-structures-and-algorithms-in-c-4ocf
+Gif de Arvore Binaria: https://blog.devgenius.io/golang-data-structures-binary-search-tree-3-5a342d9df2cf
