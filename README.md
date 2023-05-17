@@ -1,35 +1,16 @@
-<style>
-    
-    .tabela {
-        width: 70%;
-        text-align: center;
-    }
-    .tabela th {
-        background: #211370;
-        word-wrap: break-word;
-        text-align: center;
-    }
-    .tabela tr:nth-child(n) { background: #8572F2; }
-    .tabela tr:nth-child(2n) { background: #4729F0; }
-    .tabela tr:nth-child(3n) { background: #3820BD; }
-
-</style>
-
 <img src="./assets/images/programacao2.jpg" alt="Programação" width="800" height="500">
 
-# <span style="color:#CE8014">Estrutura de Dados em</span>[<img src="./assets/images/logo-java-512.png" alt="Java" width="100" height="100">](https://docs.oracle.com/en/java/)
+# Estrutura de Dados em[<img src="./assets/images/logo-java-512.png" alt="Java" width="100" height="100">](https://docs.oracle.com/en/java/)
 
-## <span style="color:#CE8014">Objetivo</span>
+## Objetivo
 
-<span style="color:#5283A2">O objetivo desse repositório é compartilhar meus estudos desenvolvidos em Estrutura de dados e organizados em pacotes dentro de um projeto na IDE [Eclipse](https://www.eclipse.org/downloads/). Caso queira importar, é só clonar o repositório dentro de uma pasta chamada "Estrutura de Dados" e importá-lo no Eclipse.</span>
+O objetivo desse repositório é compartilhar meus estudos desenvolvidos em Estrutura de dados e organizados em pacotes dentro de um projeto na IDE [Eclipse](https://www.eclipse.org/downloads/). Caso queira importar, é só clonar o repositório dentro de uma pasta chamada "Estrutura de Dados" e importá-lo no Eclipse.
 
-## <span style="color:#CE8014">Classes Importantes</span>
+## Classes Importantes
 
-### <span style="color:#F89917">Fila (Queue)</span>
+### Fila (Queue)
 
 <img src="./assets/images/fila.gif" alt="Fila em Estrutura de dados" width="550" height="450">
-
-<div class="tabela">
 
 | **Pacote** | **Classe** | **Propósito** |
 | ---------- | ---------- | ------------- |
@@ -46,13 +27,9 @@
 | lista_de_exercicio_2 | Fila1.java | Uma fila construida a partir de duas pilhas |
 | lista_de_exercicio_2 | Fila2.java | Filas em ordem diferente, porém com os mesmos elementos |
 
-</div>
-
-### <span style="color:#F89917">Pilha (Stack)</span>
+### Pilha (Stack)
 
 <img src="./assets/images/pilha.gif" alt="Pilha em Estrutura de dados" width="550" height="450">
-
-<div class="tabela">
 
 | **Pacote** | **Classe** | **Propósito** |
 | ---------- | ---------- | ------------- |
@@ -71,13 +48,9 @@
 | lista_de_exercicio_2 | Pilha1.java | Menor elemento |
 | lista_de_exercicio_2 | Pilha2.java | Expressão balanceada |
 
-</div>
-
-### <span style="color:#F89917">Lista (List)</span>
+### Lista (List)
 
 <img src="./assets/images/lista.gif" alt="Lista em Estrutura de dados" width="550" height="450">
-
-<div class="tabela">
 
 | **Pacote** | **Classe** | **Propósito** |
 | ---------- | ---------- | ------------- |
@@ -97,13 +70,9 @@
 | lista_de_exercicio_2 | Lista1.java | Implementação de uma Lista Encadeada em uma classe só e impressão reversa |
 | lista_de_exercicio_2 | Lista2.java | Implementação de uma Lista Encadeada em uma classe só e checagem para ver se está ordenada |
 
-</div>
-
-### <span style="color:#F89917">Árvore (Tree)</span>
+### Árvore (Tree)
 
 <img src="./assets/images/arvoreBinaria.gif" alt="Arvore Binária em Estrutura de dados" width="550" height="450">
-
-<div class="tabela">
 
 | **Pacote** | **Classe** | **Propósito** |
 | ---------- | ---------- | ------------- |
@@ -111,16 +80,10 @@
 | lista_de_exercicio_2 | Arvore2.java | Verificar se duas árvores são iguais (Arvoré Binária) |
 | lista_de_exercicio_2 | Desafio2.java | Implementação de árvore AVL |
 
-</div>
-
-### <span style="color:#F89917">Filas Duplas (Deques)</span>
+### Filas Duplas (Deques)
 
 <img src="./assets/images/deque.gif" alt="Arvore Binária em Estrutura de dados" width="550" height="450">
-
-<div class="tabela">
 
 | **Pacote** | **Classe** | **Propósito** |
 | ---------- | ---------- | ------------- |
 | lista_de_exercicio_2 | Desafio1.java | Implementação de Deque |
-
-</div>
