@@ -54,6 +54,7 @@ O objetivo desse repositório é compartilhar meus estudos desenvolvidos em Estr
 
 | **Pacote** | **Classe** | **Propósito** |
 | ---------- | ---------- | ------------- |
+| lista_livro | Principal.java | Testando o funcionamento de um nó de uma lista (Livro) |
 | aula_13 | NoS.java | Implementação de um Nó em uma Lista Simplesmente Encadeada (Aula) |
 | aula_13 | ListaSimplesmenteEncadeada.java | Implementação de uma Lista Simplesmente Encadeada (Aula) |
 | aula_13 | TestaListaEncadeada.java | Testando a implementação da Lista Simplesmente Encadeada (Aula) |
@@ -63,9 +64,15 @@ O objetivo desse repositório é compartilhar meus estudos desenvolvidos em Estr
 | aula_13 | NoD.java | Implementação de um Nó em uma Lista Duplamente Encadeada (Aula) |
 | aula_13 | ListaDuplamenteEncadeada.java | Implementação de uma Lista Duplamente Encadeada (Aula) |
 | aula_13 | TestaListaDuplaEncadeada.java | Testando a implementação da Lista Duplamente Encadeada (Aula) |
+| lista_livro | Nodo2.java | Implementação de um Nó em uma Lista Duplamente Encadeada (Livro) |
+| lista_livro | ListaDuplamenteEncadeada.java | Implementação de uma Lista Duplamente Encadeada (Livro) |
+| lista_livro | Principal2.java | Testando a implementação da Lista Duplamente Encadeada (Livro) |
 | aula_13 | NoC.java | Implementação de um Nó em uma Lista Circular (Aula) |
 | aula_13 | ListaCircular.java | Implementação de uma Lista Circular (Aula) |
 | aula_13 | TestaListaCircular.java | Testando a implementação da Lista Circular (Aula) |
+| lista_livro | Nodo3.java | Implementação de um Nó em uma Lista Circular (Livro) |
+| lista_livro | ListaCircular.java | Implementação de uma Lista Simplesmente Encadeada (Livro) |
+| lista_livro | Principal3.java | Testando a implementação da Lista Circular (Livro) |
 | lista_de_exercicio_2 | Lista1.java | Implementação de uma Lista Encadeada em uma classe só e sua impressão reversa |
 | lista_de_exercicio_2 | Lista2.java | Implementação de uma Lista Encadeada em uma classe só e checagem para ver se está ordenada de forma ascendente |
 
