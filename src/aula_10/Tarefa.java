@@ -27,7 +27,7 @@ public class Tarefa {
 
 	@Override
 	public String toString() { // Imprimir dados
-		return "Nome: " + nomeTarefa + "|| Tempo, em minutos: " + tempo;
+		return "Nome: " + nomeTarefa + " || Tempo, em minutos: " + tempo;
 	}
 	
 	

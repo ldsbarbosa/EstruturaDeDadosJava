@@ -5,8 +5,23 @@
 ## Objetivo
 
 O objetivo desse repositório é compartilhar meus estudos desenvolvidos em Estrutura de dados e organizados em pacotes dentro de um projeto na IDE [Eclipse](https://www.eclipse.org/downloads/). Caso queira importar, é só clonar o repositório dentro de uma pasta chamada "Estrutura de Dados" e importá-lo no Eclipse.
+A proposta da disciplina na qual cursei no primeiro semestre de 2023 foi conduzir estudantes que não necessarimanete tinham conhecimento em Lógica de Programação (Estruturas de repetição, Estruturas de decisão, Declaração de funções, etc.), Orientação à Objeto (Classes, Métodos, Atributos, Encapsulamento, Polimorfismo, Herança, etc) e a própria linguagem Java (Implementação do toString, pacotes importantes, etc).
+A maioria da turma tinha esse débito, então a disciplina se desenhou de forma que não fosse somente Estrutura de Dados, mas Algoritmos e Estrutura de Dados, além do aprendizado da própria linguagem Java.
+Esse repositório, portanto, não se restringirá a ensinar **somente** E.D., ou seja, a ênfase dele é E.D., mas não é um escopo rígido. Incluirá algoritmos de ordenação, de busca, além do pacote *aula_1* ter o principal escopo de apresentar a classe Scanner e exercitar a estrutura if.
 
 ## Classes Importantes
+
+### Vetores e Matrizes (Arrays)
+
+<img src="./assets/images/vetor.gif" alt="Vetor em Estrutura de dados" width="550" height="450">
+
+| **Pacote** | **Classe** | **Propósito** |
+| ---------- | ---------- | ------------- |
+| aula_2 | Exercicio1.java | Ler notas de um aluno e calcular sua média |
+| aula_2 | Exercicio2.java | Exibir dias da semana |
+| aula_2 | Exercicio3.java | Lendo nomes de alunos e os imprimindo |
+| aula_2 | Exercicio4.java | Imprime dois vetores contendo números aleatórios |
+| aula_2 | Exercicio5.java | Adivinhar um número em um vetor de 50 números aleatórios |
 
 ### Fila (Queue)
 
@@ -93,3 +108,19 @@ O objetivo desse repositório é compartilhar meus estudos desenvolvidos em Estr
 | **Pacote** | **Classe** | **Propósito** |
 | ---------- | ---------- | ------------- |
 | lista_de_exercicio_2 | Desafio1.java | Implementação de Deque |
+
+## Recursos
+
+### Vídeos ou playlists no Youtube
+- [Estrutura de Dados com Java // 2Guarinos](https://www.youtube.com/watch?v=8zVdz6TyV_c&list=PLTLAlheiUm5FRR5BNn4iBFwzYHiNq2Iv2)
+- [Curso Estrutura de Dados e Algoritmos Java // Loiane Groner](https://www.youtube.com/watch?v=N3K8PjFOhy4&list=PLGxZ4Rq3BOBrgumpzz-l8kFMw2DLERdxi)
+- [Java Data Structures Tutorial // Amigoscode](https://www.youtube.com/watch?v=8MmMm2-kJV8)
+- [Data Structures and Algorithms in Java full course // Dinesh Varyani](https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d)
+- [Data Structures using Java // Telusko](https://www.youtube.com/playlist?list=PLsyeobzWxl7oRKwDi7wjrANsbhTX0IK0J)
+- [Data Structures // RobEdwards](https://www.youtube.com/playlist?list=PLpPXw4zFa0uKKhaSz87IowJnOTzh9tiBk)
+- [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer // freeCodeCamp.org](https://www.youtube.com/watch?v=RBSGKlAvoiM)
+
+### Sites
+- [Data Structures in Java – A Beginners Guide 2023 // Great Learning](https://www.mygreatlearning.com/blog/data-structures-using-java/)
+- [Data Structures // GeeksForGeeks](https://www.geeksforgeeks.org/data-structures/)
+- [Data Structures Tutorial // JavaTPoint](https://www.javatpoint.com/data-structure-tutorial)

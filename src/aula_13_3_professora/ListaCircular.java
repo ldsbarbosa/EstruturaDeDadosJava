@@ -11,33 +11,30 @@ public class ListaCircular {
         No novoNo = new No(valor);
 
         if (primeiro == null) {
-            novoNo.proximo = novoNo; // O primeiro nÃ³ na lista aponta para si mesmo
+            novoNo.proximo = novoNo; // O primeiro nó na lista aponta para si mesmo
             primeiro = novoNo;
         } else {
-            novoNo.proximo = primeiro.proximo; // O novo nÃ³ aponta para o segundo nÃ³ na lista
-            primeiro.proximo = novoNo; // O primeiro nÃ³ aponta para o novo nÃ³
-            primeiro = novoNo; // O novo nÃ³ se torna o primeiro nÃ³
+            novoNo.proximo = primeiro.proximo; // O novo nó aponta para o segundo nó na lista, ou para onde o primeiro nó aponta
+            primeiro.proximo = novoNo; // O primeiro nó aponta para o novo nó
+            primeiro = novoNo; // O novo nó se torna o primeiro nó
         }
     }
 
     public void remover(int valor) {
         if (primeiro == null) {
-            return; // Lista vazia, nÃ£o hÃ¡ nada para remover
+            return; // Lista vazia, não há nada para remover
         }
 
         No atual = primeiro;
-
         while (atual.proximo != primeiro) {
             if (atual.proximo.valor == valor) {
-                atual.proximo = atual.proximo.proximo; // Remove o nÃ³ apontado pelo prÃ³ximo nÃ³ atual
+                atual.proximo = atual.proximo.proximo; // Remove o nó apontado pelo próximo nó atual
                 break;
             }
-
             atual = atual.proximo;
         }
-
         if (primeiro.valor == valor) {
-            primeiro = atual; // Atualiza o primeiro nÃ³ se o nÃ³ removido for o primeiro
+            primeiro = atual; // Atualiza o primeiro nó se o nó removido for o primeiro
         }
     }
 
@@ -47,15 +44,13 @@ public class ListaCircular {
             return;
         }
 
-        No atual = primeiro.proximo;
-
         System.out.print(primeiro.valor + " -> ");
-
+        
+        No atual = primeiro.proximo;
         while (atual != primeiro) {
             System.out.print(atual.valor + " -> ");
             atual = atual.proximo;
         }
-
         System.out.println();
     }
 }

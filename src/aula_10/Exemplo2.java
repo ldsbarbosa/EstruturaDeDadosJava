@@ -13,7 +13,6 @@ public class Exemplo2 {
 		palavras.add("Siriguela");
 		palavras.add("Banana");
 		
-		// Para executar as soluções, basta descomentar
 		// Ex.1
 		enfileirar(palavras, "Tomate");
 		System.out.println(palavras);

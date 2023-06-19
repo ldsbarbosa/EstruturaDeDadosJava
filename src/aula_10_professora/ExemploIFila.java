@@ -10,24 +10,22 @@ public class ExemploIFila {
 		fila.add("elemento1");
 		fila.add("elemento2");
 		fila.add("elemento3");
-		System.out.println("Fila = "+fila);
-		System.out.println("Primeiro da fila = "+fila.element());
-		System.out.println("Fila = "+fila);
-		
+		System.out.println("Fila = " + fila);
+		System.out.println("Primeiro da fila = " + fila.element());
+		System.out.println("Fila = " + fila);
+
 		fila.poll();
-		System.out.println("Fila = "+fila);
-		
+		System.out.println("Fila = " + fila);
+
 		fila.poll();
-		System.out.println("Fila = "+fila);
-		
-		
+		System.out.println("Fila = " + fila);
+
 		fila.poll();
-		System.out.println("Fila = "+fila);
-		
+		System.out.println("Fila = " + fila);
+
 		fila.poll();
-		System.out.println("Fila = "+fila);
-		
-		
+		System.out.println("Fila = " + fila);
+
 	}
 
 }

@@ -21,8 +21,10 @@ public class TestarFilaTarefa {
 		for(int i = 0; i < 3; i++) {
 			tempoTotal += filaDeTarefas.poll().getTempo();
 		}
-		System.out.println("\nTempo total das tarefas removidas: "+tempoTotal);
-		System.out.println("\nTarefas restantes abaixo:");
+		
+		
+		System.out.println("-----\n-----\nTempo total das tarefas removidas: "+tempoTotal);
+		System.out.println("-----\n-----\nTarefas restantes abaixo:");
 		for(Tarefa tarefa : filaDeTarefas) {
 			System.out.println(tarefa.toString()+"\n");
 		}

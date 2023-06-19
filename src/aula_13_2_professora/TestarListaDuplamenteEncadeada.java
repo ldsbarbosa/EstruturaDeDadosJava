@@ -14,7 +14,7 @@ public class TestarListaDuplamenteEncadeada {
 
 	        lista.remover(20);
 
-	        System.out.println("Lista apÃ³s remover 20:");
+	        System.out.println("Lista após remover 20:");
 	        lista.imprimir();
 	    }
 }
